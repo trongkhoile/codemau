@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../build/tailwind.css" />
+    <link rel="stylesheet" href="../build/file.css" />
+    <title>Manga Vip Pro</title>
+</head>
+
+<body>
+    <div class=" flex justify-center items-center justify-around bg-green-500">
+        <div class="flex justify-center items-center justify-around w-2/3 h-32 ">
+            <a href="../index.html">
+                <h2 class="text-3xl" style="font-family: 'Pacifico', cursive;">Manga Vip Pro </h2>
+            </a>
+            <div>
+                <input class="border-2 border-black" type="text" placeholder="Search manga...">
+                <i class="fas fa-search text-2xl"></i>
+            </div>
+        </div>
+
+    </div>
+    <p class="text-3xl pt-11 pb-11 text-center bg-gray-300">Chapter 1</p>
+    <div class="khung flex justify-center flex-col items-center">
+
+    </div>
+
+    <div class="flex justify-center justify-around w-full pt-11 pb-11 bg-gray-300">
+        <a class="text-3xl" href="chap2.html">Next Chapter 2</a>
+    </div>
+    <script>
+        function bam() {
+            for (var i = 1; i <= 19; i++) {
+                const truyen = ` <img src="https://cdn.readkakegurui.com/file/mangaifenzi22/one-punch-man/chapter-1-one-punch/${i}.jpg" style="width:600px">`;
+                $(".khung").append(truyen);
+            }
+        }
+        window.onload = function () {
+            bam();
+        };
+    </script>
+    <script src="https://kit.fontawesome.com/13f09ba1d5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
